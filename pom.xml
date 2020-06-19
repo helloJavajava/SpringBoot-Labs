@@ -11,106 +11,201 @@
     <modules>
 
         <!-- Spring Boot 示例 -->
-<!--        <module>lab-01</module>-->
-<!--        <module>lab-02</module>-->
-<!--        <module>lab-03</module>-->
-<!--        <module>lab-04</module>-->
-<!--        <module>lab-05</module>-->
-<!--        <module>lab-06</module>-->
-<!--        <module>lab-07</module>-->
-<!--        <module>lab-08</module>-->
-<!--        <module>lab-09</module>-->
-<!--        <module>lab-10</module>-->
-<!--        <module>lab-11</module>-->
-<!--        <module>lab-12</module>-->
-<!--        <module>lab-13</module>-->
-<!--        <module>lab-14</module>-->
-<!--        <module>lab-15</module>-->
-<!--        <module>lab-16</module>-->
-<!--        <module>lab-17</module>-->
-<!--        <module>lab-18</module>-->
-<!--        <module>lab-19</module>-->
-<!--        <module>lab-20</module>-->
-<!--        <module>lab-21</module>-->
-<!--        <module>lab-22</module>-->
-<!--        <module>lab-23</module>-->
-<!--        <module>lab-24</module>-->
-<!--        <module>lab-25</module>-->
-<!--        <module>lab-26</module>-->
-<!--        <module>lab-27</module>-->
-<!--        <module>lab-28</module>-->
-<!--        <module>lab-29</module>-->
-<!--        <module>lab-30</module>-->
-<!--        <module>lab-31</module>-->
-<!--        <module>lab-32</module>-->
-<!--        <module>lab-33</module>-->
-<!--        <module>lab-34</module>-->
-<!--        <module>lab-35</module>-->
-<!--        <module>lab-36</module>-->
-<!--        <module>lab-37</module>-->
-<!--        <module>lab-38</module>-->
-<!--        <module>lab-39</module>-->
-<!--        <module>lab-40</module>-->
-<!--        <module>lab-41</module>-->
-<!--        <module>lab-42</module>-->
-<!--        <module>lab-43</module>-->
-<!--        <module>lab-44</module>-->
-<!--        <module>lab-45</module>-->
-<!--        <module>lab-46</module>-->
-<!--        <module>lab-47</module>-->
-<!--        <module>lab-48</module>-->
-<!--        <module>lab-49</module>-->
-<!--        <module>lab-50</module>-->
-<!--        <module>lab-51</module>-->
-<!--        <module>lab-52</module>-->
-<!--        <module>lab-53</module>-->
-<!--        <module>lab-54</module>-->
-<!--        <module>lab-55</module>-->
-<!--        <module>lab-56</module>-->
-<!--        <module>lab-57</module>-->
-<!--        <module>lab-58</module>-->
-<!--        <module>lab-59</module>-->
-<!--        <module>lab-60</module>-->
-<!--        <module>lab-61</module>-->
-<!--        <module>lab-62</module>-->
-<!--        <module>lab-63</module>-->
-<!--        <module>lab-64</module>-->
-<!--        <module>lab-65</module>-->
-<!--        <module>lab-66</module>-->
+        <!-- Spring-Security -->
+        <module>lab-01</module>
+        <!-- Spring-Security-OAuth2 -->
+        <module>lab-02</module>
+        <!-- Kafka -->
+        <module>lab-03</module>
+        <!-- Rabbitmq -->
+        <module>lab-04</module>
+        <!-- Tomcat、Jetty、Undertow 基准测试 -->
+        <module>lab-05</module>
+        <!-- SpringMVC、Webflux 基准测试 -->
+        <module>lab-06</module>
+        <!-- Spring Cloud Gateway、Zuul 基准测试 -->
+        <module>lab-07</module>
+        <!-- ↓废弃↓ -->
+        <module>lab-08</module>
+        <module>lab-09</module>
+        <module>lab-10</module>
+        <!-- ↑废弃↑ -->
+        <!-- Redis -->
+        <module>lab-11</module>
+        <!-- MyBatis -->
+        <module>lab-12</module>
+        <!-- Spring-Boot-JPA -->
+        <module>lab-13</module>
+        <!-- Spring-Boot-JdbcTemplate -->
+        <module>lab-14</module>
+        <!-- Spring-Boot-Elasticsearch -->
+        <module>lab-15</module>
+        <!-- Spring-Boot-MongoDB -->
+        <module>lab-16</module>
+        <!-- Spring-Boot 多数据源（读写分离）入门 -->
+        <module>lab-17</module>
+        <!-- Spring-Boot 分库分表入门 -->
+        <module>lab-18</module>
+        <!-- Spring-Boot 数据库连接池入门 -->
+        <module>lab-19</module>
+        <!-- Spring-Boot 数据库版本管理入门 -->
+        <module>lab-20</module>
+        <!-- Spring-Boot 缓存 Cache 入门 -->
+        <module>lab-21</module>
+        <!-- Spring-Boot 参数校验 Validation 入门 -->
+        <module>lab-22</module>
+        <!-- Spring-Boot SpringMVC 入门 -->
+        <module>lab-23</module>
+        <!-- Spring-Boot API 接口文档 Swagger 入门 -->
+        <module>lab-24</module>
+        <!-- Spring-Boot WebSocket 入门 -->
+        <module>lab-25</module>
+        <!-- Spring-Boot 分布式 Session 入门 -->
+        <module>lab-26</module>
+        <!-- Spring-Boot 响应式 WebFlux 入门 -->
+        <module>lab-27</module>
+        <!-- Spring-Boot 定时任务入门 -->
+        <module>lab-28</module>
+        <!-- Spring-Boot 异步任务入门 -->
+        <module>lab-29</module>
+        <!-- Spring-Boot Dubbo 入门 -->
+        <module>lab-30</module>
+        <!-- Spring-Boot 消息队列 RocketMQ 入门 -->
+        <module>lab-31</module>
+        <!-- Spring-Boot 消息队列 ActiveMQ 入门 -->
+        <module>lab-32</module>
+        <!-- Spring-Boot 安全框架 Shiro 入门 -->
+        <module>lab-33</module>
+        <!-- Spring-Boot 监控端点 Actuator 入门 -->
+        <module>lab-34</module>
+        <!-- Spring-Boot 监控工具 Admin 入门 -->
+        <module>lab-35</module>
+        <!-- Spring-Boot 监控平台 Prometheus + Grafana 入门 -->
+        <module>lab-36</module>
+        <!-- Spring-Boot 日志集成 Logging 入门 -->
+        <module>lab-37</module>
+        <!-- Spring-Boot 日志平台 ELK + Filebeat 入门 -->
+        <module>lab-38</module>
+        <!-- Spring-Boot 链路追踪 SkyWalking 入门 -->
+        <module>lab-39</module>
+        <!-- Spring-Boot 链路追踪 Zipkin 入门 -->
+        <module>lab-40</module>
+        <!-- Spring-Boot 持续交付 Jenkins 入门 -->
+        <module>lab-41</module>
+        <!-- Spring-Boot 单元测试 Test 入门 -->
+        <module>lab-42</module>
+        <!-- Spring-Boot 配置文件入门 -->
+        <module>lab-43</module>
+        <!-- Spring-Boot-Nacos 入门 -->
+        <module>lab-44</module>
+        <!-- Spring-Boot 配置中心 Apollo 入门 -->
+        <module>lab-45</module>
+        <!-- Spring-Boot 服务容错 Sentinel 入门 -->
+        <module>lab-46</module>
+        <!-- Spring-Boot 自动配置原理 -->
+        <module>lab-47</module>
+        <!-- Spring-Boot 热部署入门 -->
+        <module>lab-48</module>
+        <!-- Spring-Boot 消除冗余代码 Lombok 入门 -->
+        <module>lab-49</module>
+        <!--  -->
+        <module>lab-50</module>
+        <!-- Spring-Boot 异常管理平台 Sentry 入门 -->
+        <module>lab-51</module>
+        <!-- Spring-Boot 分布式事务 Seata 入门 -->
+        <module>lab-52</module>
+        <!-- Dubbo 分布式事务 Seata 入门 -->
+        <module>lab-53</module>
+        <!-- Spring-Boot 事件机制 Event 入门 -->
+        <module>lab-54</module>
+        <!-- Spring-Boot 对象转换 MapStruct 入门 -->
+        <module>lab-55</module>
+        <!-- APISIX、Kong网关 -->
+        <module>lab-56</module>
+        <!-- Spring-Boot 服务容错 Hystrix 入门 -->
+        <module>lab-57</module>
+        <!-- Spring-Boot 声明式调用 Feign 入门 -->
+        <module>lab-58</module>
+        <!-- Spring-Boot 服务容错 Resilience4j 入门 -->
+        <module>lab-59</module>
+        <!-- Soul网关 -->
+        <module>lab-60</module>
+        <!-- Spring-Boot 监控平台 CAT 入门 -->
+        <module>lab-61</module>
+        <!-- Spring-Boot SOFARPC 入门 -->
+        <module>lab-62</module>
+        <!-- Spring-Boot Motan 入门 -->
+        <module>lab-63</module>
+        <!-- Spring-Boot gRPC 入门 -->
+        <module>lab-64</module>
+        <!-- Spring-Boot Web Services 入门 -->
+        <module>lab-65</module>
+        <!-- Spring-Boot Web Solr 入门 -->
+        <module>lab-66</module>
+        <!--  -->
+        <module>lab-67</module>
 
         <!-- Spring Cloud 示例 -->
-<!--        <module>labx-01</module>-->
-<!--        <module>labx-02</module>-->
-<!--        <module>labx-03</module>-->
-<!--        <module>labx-04</module>-->
-<!--        <module>labx-05</module>-->
-<!--        <module>labx-06</module>-->
-<!--        <module>labx-07</module>-->
-<!--        <module>labx-08</module>-->
-<!--        <module>labx-09</module>-->
-<!--        <module>labx-10</module>-->
-<!--        <module>labx-11</module>-->
-<!--        <module>labx-12</module>-->
-<!--        <module>labx-13</module>-->
-<!--        <module>labx-14</module>-->
-<!--        <module>labx-15</module>-->
-<!--        <module>labx-16</module>-->
-<!--        <module>labx-17</module>-->
-<!--        <module>labx-18</module>-->
-<!--        <module>labx-19</module>-->
-<!--        <module>labx-20</module>-->
-<!--        <module>labx-21</module>-->
-<!--        <module>labx-22</module>-->
-<!--        <module>labx-23</module>-->
-<!--        <module>labx-24</module>-->
-<!--        <module>labx-25</module>-->
-<!--        <module>labx-26</module>-->
-<!--        <module>labx-27</module>-->
-<!--        <module>labx-28</module>-->
-<!--        <module>labx-28</module>-->
-<!--        <module>labx-29</module>-->
-<!--        <module>labx-30</module>-->
-        <module>lab-67</module>
+        <!-- Spring Cloud Alibaba 注册中心 Nacos 入门 -->
+        <module>labx-01</module>
+        <!-- Spring Cloud Netflix 负载均衡 Ribbon 入门 -->
+        <module>labx-02</module>
+        <!-- Spring Cloud 声明式调用 Feign 入门 -->
+        <module>labx-03</module>
+        <!-- Spring Cloud Alibaba 服务容错 Sentinel 入门 -->
+        <module>labx-04</module>
+        <!-- Spring Cloud Alibaba 配置中心 Nacos 入门 -->
+        <module>labx-05</module>
+        <!-- Spring Cloud Alibaba 消息队列 RocketMQ 入门 -->
+        <module>labx-06</module>
+        <!-- Spring Cloud Alibaba 服务调用 Dubbo 入门 -->
+        <module>labx-07</module>
+        <!-- Spring Cloud 网关 Spring Cloud Gateway 入门 -->
+        <module>labx-08</module>
+        <!-- Spring Cloud 配置中心 Apollo 入门 -->
+        <module>labx-09</module>
+        <!-- Spring Cloud 消息队列 RabbitMQ 入门 -->
+        <module>labx-10</module>
+        <!-- Spring Cloud 消息队列 Kafka 入门 -->
+        <module>labx-11</module>
+        <!-- Spring Cloud 配置中心 Spring Cloud Config 入门 -->
+        <module>labx-12</module>
+        <!-- Spring Cloud 链路追踪 Spring Cloud Sleuth -->
+        <module>labx-13</module>
+        <!-- Spring Cloud 链路追踪 SkyWalking -->
+        <module>labx-14</module>
+        <!-- Spring Cloud 监控工具 Admin 入门 -->
+        <module>labx-15</module>
+        <!-- Spring Cloud 持续交付 Jenkins 入门 -->
+        <module>labx-16</module>
+        <!-- Spring Cloud Alibaba 分布式事务 Seata 入门 -->
+        <module>labx-17</module>
+        <!-- Spring Cloud 事件总线 RabbitMQ 入门 -->
+        <module>labx-18</module>
+        <!-- Spring Cloud 事件总线 Kafka 入门 -->
+        <module>labx-19</module>
+        <!-- Spring Cloud Alibaba 事件总线 Bus RocketMQ 入门 -->
+        <module>labx-20</module>
+        <!-- Spring Cloud 网关 Zuul 入门 -->
+        <module>labx-21</module>
+        <!-- Spring Cloud Netflix 注册中心 Eureka 入门 -->
+        <module>labx-22</module>
+        <!-- Spring Cloud Netflix 服务容错 Hystrix 入门 -->
+        <module>labx-23</module>
+        <!-- Spring Cloud 服务容错 Resilience4j 入门 -->
+        <module>labx-24</module>
+        <!-- Spring Cloud 注册中心 ZooKeeper 入门 -->
+        <module>labx-25</module>
+        <!-- Spring Cloud 配置中心 ZooKeeper 入门 -->
+        <module>labx-26</module>
+        <!-- Spring Cloud 注册中心 Consul 入门 -->
+        <module>labx-27</module>
+        <!-- Spring Cloud 配置中心 Consul 入门 -->
+        <module>labx-28</module>
+        <!-- Spring Cloud 消息总线 Bus Consul 入门 -->
+        <module>labx-29</module>
+        <!-- Spring Cloud gRPC 入门 -->
+        <module>labx-30</module>
     </modules>
 
 </project>
